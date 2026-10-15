@@ -2,10 +2,10 @@ import {PosterCard} from './components/PosterCard';
 
 function App() {
   return(
-    <div>
+    <main>
       <PosterCard title='Run For Time' runtimeMinutes={136} />
       
-    </div>
+    </main>
   )
 }
 
