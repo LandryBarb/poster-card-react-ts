@@ -1,0 +1,27 @@
+article{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+ul{
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+
+  li{
+    margin: 0 8px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    background-color: var(--bg);
+    color: var(--text-h);
+    font-family: var(--mono);
+    font-size: 15px;
+    line-height: 135%;
+  }
+}
